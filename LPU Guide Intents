@@ -1,0 +1,308 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AboutIntent",
+        "samples": [
+          "about LPU",
+          "give a brief about LPU",
+          "tell me about LPU"
+        ],
+        "slots": []
+      },
+      {
+        "name": "AccreditationIntent",
+        "samples": [
+          "accreditations",
+          "LPU accreditations",
+          "tell me about LPU accreditations",
+          "do LPU have any accreditations",
+          "how LPU is recognized ",
+          "do have any permissions by govt",
+          "what is LPU accreditations",
+          "with whom LPU get recognized"
+        ],
+        "slots": []
+      },
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NoIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.YesIntent",
+        "samples": []
+      },
+      {
+        "name": "AttractionIntent",
+        "samples": [
+          "recommend an attraction",
+          "recommend an attraction within {distance} miles",
+          "give me an activity",
+          "give me an activity within {distance} miles",
+          "tell me about attraction in LPU"
+        ],
+        "slots": [
+          {
+            "name": "distance",
+            "type": "AMAZON.NUMBER"
+          }
+        ]
+      },
+      {
+        "name": "BreakfastIntent",
+        "samples": [
+          "breakfast",
+          "show me some breakfast places",
+          "show me some dinner places"
+        ],
+        "slots": []
+      },
+      {
+        "name": "CampusJobsIntent",
+        "samples": [
+          "do students get part time jobs in LPU",
+          "part time job in LPU",
+          "campus jobs in LPU",
+          "job opportunities in LPU campus",
+          "part time job in LPU campus",
+          "does LPU gives part time jobs in LPU"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ChancellorIntent",
+        "samples": [
+          "chancellor of LPU",
+          "who is chancellor of LPU",
+          "who is current chancellor of LPU",
+          "who is current chairman of LPU",
+          "chancellor of lovely professional university",
+          "who is current chancellor of lovely professional university"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ConnectionIntent",
+        "samples": [
+          "connections",
+          "tell me about LPU connections",
+          "about LPU connections with other",
+          "about LPU connections",
+          "with whom LPU have connections"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ConvocationIntent",
+        "samples": [
+          "convocations in LPU",
+          "convocations held in LPU",
+          "convocations highlights in LPU",
+          "different convocations in LPU",
+          "tell me the convocations held in LPU",
+          "tell me about {number} convocation held in LPU",
+          "{number} convocations highlights in LPU"
+        ],
+        "slots": [
+          {
+            "name": "number",
+            "type": "AMAZON.NUMBER"
+          }
+        ]
+      },
+      {
+        "name": "FacilitiesIntent",
+        "samples": [
+          "facilities in LPU",
+          "facilities provided by LPU",
+          "tell me about facilities provided by LPU",
+          "tell me about facilities in LPU"
+        ],
+        "slots": []
+      },
+      {
+        "name": "FounderIntent",
+        "samples": [
+          "founder of LPU",
+          "who is founder of LPU",
+          "who was founder of LPU",
+          "who was founder chairman of LPU",
+          "founder of lovely",
+          "who was founder of lovely group",
+          "founder chairman of lovely",
+          "founder chairman of lovely group",
+          "who was founder chairman of lovely group",
+          "who was founder chairman of lovely",
+          "who founded LPU",
+          "who founded lovely group",
+          "who founded lovely professional university"
+        ],
+        "slots": []
+      },
+      {
+        "name": "GoOutIntent",
+        "samples": [
+          "go out",
+          "go outside",
+          "lets go out"
+        ],
+        "slots": []
+      },
+      {
+        "name": "InitiativesIntent",
+        "samples": [
+          "initiatves by LPU",
+          "tell me about initiatives started by LPU",
+          "tell me about initiatives started by lovely",
+          "tell me about initiatives started by lovely professional university",
+          "what are some initiatives started by LPU",
+          "what are some initiatives started by lovely",
+          "what are some initiatives started by lovely professional university"
+        ],
+        "slots": []
+      },
+      {
+        "name": "LunchIntent",
+        "samples": [
+          "lunch",
+          "show me some lunch places"
+        ],
+        "slots": []
+      },
+      {
+        "name": "MembershipIntent",
+        "samples": [
+          "do LPU have a membership with others",
+          "tell me about membership of LPU",
+          "with whom LPU has a membership"
+        ],
+        "slots": []
+      },
+      {
+        "name": "OrganizationIntent",
+        "samples": [
+          "how many student organisations in LPU",
+          "student organisations in LPU",
+          "is there any student organisation in LPU",
+          "what are the student organisations in LPU",
+          "tell me about the student organisations in LPU",
+          "about the student oragnisations in LPU"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ProIntent",
+        "samples": [
+          "pro chancellor of LPU",
+          "who is pro chancellor of LPU",
+          "who is current pro chancellor of LPU",
+          "pro chancellor of lovely professional university",
+          "who is current pro chancellor of lovely professional university"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ProjectIntent",
+        "samples": [
+          "projects in LPU",
+          "tell me projects in LPU",
+          "tell me about projects development in LPU",
+          "tell me about projects development of LPU",
+          "projects development in LPU"
+        ],
+        "slots": []
+      },
+      {
+        "name": "RankingIntent",
+        "samples": [
+          "tell me about ranking of LPU",
+          "tell me about LPU ranking",
+          "LPU ranking",
+          "whats LPU ranking",
+          "awards of LPU",
+          "awards which won by LPU",
+          "awards won by LPU",
+          "tell me LPU awards",
+          "details about LPU awards"
+        ],
+        "slots": []
+      },
+      {
+        "name": "SnacksIntent",
+        "samples": [
+          "breakfast",
+          "show me some snacks places"
+        ],
+        "slots": []
+      },
+      {
+        "name": "StartupIntent",
+        "samples": [
+          "What is LPU startup school",
+          "give me details about LPU startup school",
+          "LPU startup school",
+          "tell me about LPU startup school"
+        ],
+        "slots": []
+      },
+      {
+        "name": "TieupIntent",
+        "samples": [
+          "tieups",
+          "Tell me about L.P.U. tieup",
+          "show me some tieups that lovely have",
+          "Tell me about some lovely tieapps",
+          "lovely ka international mein kaha kaha batt cheet hai",
+          "show me some international tie up lovely have",
+          "University with whom lovely have connections with",
+          "different tie-ups of lovely",
+          "lovely ke kiss kiss ke sath tieups hai",
+          "this university have tieups with which all universities internationally",
+          "show me some international connections of lovely",
+          "lovely is in partnership with which all brands",
+          "lovely professional university international tie up",
+          "tell me about some international connections of lpu",
+          "tell me about some international tie ups of lovely professional university",
+          "who else is in mission with lovely for international connections",
+          "who else is in lovely's vision for international bonding",
+          "lovely professional university ka kaha kaha international tieup hai"
+        ],
+        "slots": []
+      },
+      {
+        "name": "TrainingIntent",
+        "samples": [
+          "tell me about training",
+          "tell me about training in LPU",
+          "students training in LPU",
+          "do LPU provide students training"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ViceIntent",
+        "samples": [
+          "vice chancellor of LPU",
+          "who is vice chancellor of LPU",
+          "who is current vice chancellor of LPU",
+          "vice chancellor of lovely professional university",
+          "who is current vice chancellor of lovely professional university"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "lovely guide"
+  }
+}
