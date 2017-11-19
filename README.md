@@ -1,0 +1,2 @@
+# Amazon-Alexa-LPU-Guide
+This project is about LPU Guide which we created by Amazon Alexa as Voice User Interface using AWS Lambda and Alexa Skill which tell any outsider, new public who is coming to LPU. Just ask the question to your alexa and it will reply you. Ask a question to your Alexa like facilities, food court, restuarants, blocks, events, ceremony, convocations etc and Alexa will reply you.
